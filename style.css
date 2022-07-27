@@ -5,7 +5,7 @@ Author: Blerina
 Description: Fance theme
 Tags:left-sidebar, responsive, fancy
 Version: 1.0
-Text Domain: whiteCosat
+Text Domain: whiteCoast
 */
 :root {
     --blue: #007bff;
@@ -107,13 +107,15 @@ h6 {
     top: 0;
     height: 100vh;
     width: var(--sidebar-width);
-    background: var(--primary);
+    background: #343a40;
     color: #fff
 }
 .header .site-title {
     color:var(--white);
     font-size:1.2em;
     display:block;
+    position: relative;
+    top: 20px;
 }
 
 .header .btn-primary {
@@ -164,7 +166,7 @@ h6 {
 }
 
 .header .nav-item a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.6)
 }
 .logo{
@@ -218,7 +220,7 @@ h6 {
 }
 .gradient{
     background: rgb(43,43,43);
-    background: linear-gradient(151deg, var(--orange) 0%, var(--pink) 35%,var(--primary) 100%) !important;
+    background: linear-gradient(151deg, #62f677 0%, #3556ee 35%,#42c1ad 100%) !important;
 }
 .content .post .title {
     font-size: 1.275rem
