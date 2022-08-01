@@ -42,6 +42,9 @@ function whitecoast_register_scripts(){
 }
 
 add_action( 'wp_enqueue_scripts', 'whitecoast_register_scripts');
+
+add_image_size("smallest",300,300,true);
+add_image_size("largest",800,800,true);
   
 
 ?>
